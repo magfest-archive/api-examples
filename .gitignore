@@ -1,1 +1,2 @@
-selfsigned-X-*
+client.crt
+client.key
