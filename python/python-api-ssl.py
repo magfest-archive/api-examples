@@ -2,7 +2,7 @@ from pprint import pprint
 from rpctools.jsonrpc import ServerProxy
 
 # the URL you connect to
-your_API_URL = "https://stage.uber.magfest.org:777/jsonrpc/"
+your_API_URL = "https://stage.uber.magfest.org/jsonrpc/"
 
 # the client certificate .crt provided to you by an administrator
 your_client_cert_crt = "../client.crt"
