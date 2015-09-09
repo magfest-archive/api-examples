@@ -1,4 +1,7 @@
 <?php
+
+// NOTE: recommend instead of doing it this way you use a 3rd party JSON_RPC library. this way works ok though.
+
 $cert = "../client.crt";
 $keyfile = "../client.key";
 $url = "https://stage.uber.magfest.org/jsonrpc/";
