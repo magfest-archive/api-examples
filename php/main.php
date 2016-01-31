@@ -4,7 +4,7 @@
 
 $cert = "../client.crt";
 $keyfile = "../client.key";
-$url = "https://stage.uber.magfest.org/jsonrpc/";
+$url = "https://stage.uber.magfest.org:4444/jsonrpc/";
 
 $method = "attendee.lookup";
 $badge_number = 1;
