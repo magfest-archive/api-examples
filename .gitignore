@@ -1,3 +1,4 @@
-client.crt
-client.key
+*.crt
+*.key
 .idea
+node/node_modules
