@@ -1,0 +1,11 @@
+{
+	"description": "Example to query RAMS API",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/rams/api-examples"
+	},
+	"license": "MIT",
+	"dependencies": {
+  		"node-json-rpc": "*"
+ 	}
+}
