@@ -17,7 +17,7 @@ service = ServerProxy(
 )
 
 # now you can actually call the API functions
-pprint(service.attendee.lookup(badge_num=1))
+pprint(service.attendee.lookup(badge_num=152))  # 152 = first staff badge
 pprint(service.attendee.search('Test'))
 
 # if the rams instance has barcode support, you can look up a barcode

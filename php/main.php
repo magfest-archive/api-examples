@@ -7,7 +7,7 @@ $keyfile = "../client.key";
 $url = "https://stage.uber.magfest.org:4444/jsonrpc/";
 
 $method = "attendee.lookup";
-$badge_number = 1;
+$badge_number = 152; // first staff badge
 
 $post = '{"jsonrpc": "2.0", "method": "'.$method.'", "params": ['.$badge_number.']}';
 $ch = curl_init(); 
