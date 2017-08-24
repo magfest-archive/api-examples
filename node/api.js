@@ -4,7 +4,7 @@ var fs = require("fs");
 var postData = JSON.stringify({jsonrpc: "2.0", method: "attendee.lookup", params: [5], id:(new Date).getTime()});
 var options = {
   hostname: 'staging2.uber.magfest.org',
-  port: 4443,
+  port: 4445,
   path: '/jsonrpc/',
   method: 'POST',
   key: fs.readFileSync('../magdev-client.key'),

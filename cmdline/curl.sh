@@ -9,7 +9,7 @@ SSLCRT=../magdev-client.crt
 
 
 # change to the address of a RAMS server you want to connect to
-REMOTE_HOST=https://staging5.uber.magfest.org:4443
+REMOTE_HOST=https://staging5.uber.magfest.org:4445
 
 # use attendee.lookup to look up badge #152 (first staff badge)
 API_REQUEST='{"jsonrpc": "2.0", "method": "attendee.lookup", "params": [152]}'
