@@ -2,7 +2,7 @@ from pprint import pprint
 from rpctools.jsonrpc import ServerProxy
 
 # the URL you connect to
-your_API_URL = "https://localhost:4445/jsonrpc/"
+your_API_URL = "https://staging5.uber.magfest.org:4445/jsonrpc/"
 
 # the client certificate .crt provided to you by an administrator
 your_client_cert_crt = "../selfsigned-X-client.crt"
@@ -17,7 +17,7 @@ service = ServerProxy(
 )
 
 # now you can actually call the API functions
-pprint(service.attendee.lookup(badge_num=666))  # 152 = first staff badge
+pprint(service.attendee.lookup(badge_num=152))  # 152 = first staff badge
 # pprint(service.attendee.search('Cerquetti'))
 
 # if the rams instance has barcode support, you can look up a barcode
