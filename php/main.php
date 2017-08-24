@@ -4,7 +4,7 @@
 
 $cert = "../client.crt";
 $keyfile = "../client.key";
-$url = "https://stage.uber.magfest.org:4444/jsonrpc/";
+$url = "https://staging5.uber.magfest.org:4443/jsonrpc/";
 
 $method = "attendee.lookup";
 $badge_number = 152; // first staff badge
